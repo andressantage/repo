@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a3 img{
+    margin-top: 100px;
+    height: 20%;
+    width: 20%;
+}
+.a3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+body{
+    background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/12/avion-united-airlanes-2551507.jpg?tf=3840x");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.a2:hover{
+    color:white;
+}
+a:hover{
+    color: black;
+}
+nav{
+    width: 100%;
+    padding: 1%;
+    display: block;
+    background-color: rgb(0, 179, 255);
+}
+/* .centrar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* section{
+    background-color: rgb(0, 157, 255);
+    display: grid;
+    place-items: center;
+    grid-column: auto;
+    grid-row: auto;
+    text-align: center;
+
+    padding: 10px;
+    width: 100%;
+    font-size: 25px
+} */
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}

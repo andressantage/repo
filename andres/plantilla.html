@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- cdn icnonos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <h1>Modulo de </h1>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        :
+                    </div>
+                    <form class="p-4" id="myForm">
+                        <div class="mb-3">
+                            <label class="form-label">: </label>
+                            <input type="text" class="form-control" name="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">: </label>
+                            <input type="text" class="form-control" name="ciudadOrigen">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">: </label>
+                            <input type="text" class="form-control" name="ciudadDestino">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">: </label>
+                            <input type="text" class="form-control" name="total">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">: </label>
+                            <input type="text" class="form-control" name="valor">
+                        </div>
+
+                        <div class="d-grid">
+                            <input type="submit" class="btn btn-primary" data-accion="POST" value="Registrar">
+                            <input type="submit" data-accion="PUT" value="Modificar">
+                            <input type="submit" data-accion="GET" value="Listar">
+                            <input type="submit" data-accion="DELETE" value="Eliminar">
+                            <input type="submit" data-accion="SEARCH" value="Buscar">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+{
+  "clientes": [
+    {
+      "id": "10958",
+      "nombre": "dfs",
+      "apellido": "sdf",
+      "telefono": "fsd",
+      "fecha": "",
+      "ciudad": "",
+      "pais": "",
+      "correo": ""
+    },
+    {
+      "id": "105185",
+      "nombre": "",
+      "apellido": "",
+      "telefono": "",
+      "fecha": "",
+      "ciudad": "",
+      "pais": "",
+      "correo": ""
+    }
+  ],
+  "rutas": [
+    {
+      "nombre": "barranaca",
+      "ciudadOrigen": "buc",
+      "ciudadDestino": "bog",
+      "total": "100",
+      "valor": "1",
+      "id": 1
+    }
+  ],
+  "flota": [
+    {
+      "nombre": "1",
+      "ciudadOrigen": "1",
+      "ciudadDestino": "1",
+      "total": "1",
+      "valor": "1",
+      "id": 1
+    },
+    {
+      "aeronave": "blue",
+      "cantidad": "1",
+      "fecha": "2023-05-17",
+      "valor": "10",
+      "matricula": "axc123",
+      "id": 2
+    }
+  ],
+  "etiqueta": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "nombre": "45",
+      "apellido": "52132",
+      "correo": "casdkl@skfdm.com",
+      "origen": "dfsdf",
+      "destino": "sdfdsf",
+      "id": 4
+    },
+    {
+      "origen": "bucc",
+      "destino": "boo",
+      "id": 5
+    },
+    {
+      "origen": "buc",
+      "destino": "bog",
+      "id": 6
+    },
+    {
+      "origen": "buc",
+      "destino": "bog",
+      "id": 7
+    }
+  ],
+  "embarque": [
+    {
+      "id": 1
+    }
+  ],
+  "personal": [
+    {
+      "numero": "1",
+      "nombre": "1",
+      "apellido": "1",
+      "email": "1",
+      "celular": "1",
+      "profesion": "1",
+      "id": 1
+    },
+    {
+      "numero": "1095833",
+      "nombre": "AND",
+      "apellido": "CES",
+      "email": "CA@gmail.com",
+      "celular": "3162",
+      "profesion": "copiloto",
+      "id": 2
+    },
+    {
+      "numero": "",
+      "nombre": "",
+      "apellido": "",
+      "email": "",
+      "celular": "",
+      "profesion": "mazda",
+      "id": 3
+    }
+  ]
+}
